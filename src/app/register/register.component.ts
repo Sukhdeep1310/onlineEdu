@@ -14,10 +14,10 @@ export class RegisterComponent implements OnInit {
 angForm: FormGroup;
 constructor(private fb: FormBuilder,private dataService: ServiceService,private router:Router) {
 this.angForm = this.fb.group({
-email: ['', [Validators.required,Validators.minLength(1), Validators.email]],
-password: ['', Validators.required],
-name: ['', Validators.required],
-mobile: ['', Validators.required]
+//email: ['', [Validators.required,Validators.minLength(1), Validators.email]],
+//password: ['', Validators.required],
+//name: ['', Validators.required],
+//mobile: ['', Validators.required]
 });
 }
 
